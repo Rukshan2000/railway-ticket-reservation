@@ -1,0 +1,90 @@
+body {
+    background-image: url('../images/train-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    display: grid;
+    gap: 20px; /* Gap between columns */
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  
+  .picker-container {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;  }
+  
+
+  .select-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .select-element {
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .find-button {
+    background-color: #333;
+    width: 220px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: border-radius 0.4s;
+
+  }
+
+  .find-button:hover {
+    color: #fff;
+    border-radius: 20px;
+    transition: border-radius 0.4s;
+
+  }
+
+
+  
+  .schedule-info {
+    margin-top: 10px;
+    width: 400px;
+    padding: 20px;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.485);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  

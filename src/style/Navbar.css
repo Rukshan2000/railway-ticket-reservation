@@ -1,0 +1,24 @@
+.navbar {
+    background-color: black;
+    height: 5rem;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Fixed at the top of the viewport */
+    z-index: 100; /* Ensure the navbar is above other content */
+  }
+  
+  .icon {
+    max-width: 60px; /* Adjust the size of your logo */
+    margin-right: 0px;
+  }
+  
+  .title {
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+  }
+  

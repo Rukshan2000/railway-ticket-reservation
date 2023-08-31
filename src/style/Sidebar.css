@@ -1,0 +1,65 @@
+/* Sidebar.css */
+
+/* Sidebar.css */
+
+.sidebar {
+    width: 250px;
+    background-color: #141c6d;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-right: 1px solid #ccc;
+    overflow-y: auto; /* Allow the sidebar to scroll */
+  }
+  
+  /* ... (other styles) ... */
+  
+  
+    
+    .nav-list li img {
+      max-width: 60px; /* Adjust the size of your logo */
+      margin-right: 0px;
+  
+    }
+    
+    .logo-text {
+      font-weight: bolder;
+      
+    }
+    
+    .nav-list {
+      list-style-type: none;
+      padding: 15px 0px; /* Adjust the padding values for more space */
+      margin-bottom: 15px; /* Add margin at the bottom of each list item */
+  
+    }
+    .nav-list li:last-child {
+      margin-bottom: 0; /* Remove margin from the last list item to avoid extra space */
+    }
+    .nav-list li {
+      width: 210px; 
+      height: 50px;  }
+    
+    .nav-list li a {
+      text-decoration: none;
+      color: white;
+      display: block;
+      font-weight: bold;
+      padding: 10px 20px; /* Apply padding to the anchor */
+      transition: background-color 0.3s; /* Add transition for smooth hover effect */
+    }
+    
+    .nav-list li a:hover {
+      background-color: #7fb4ff; /* Change background color on hover */
+      width: 210px; 
+      height: 40px;
+    }
+    
+    .nav-list li a.active {
+      background-color: #7fb4ff;
+      width: 210px; 
+      height: 40px;
+    }
+    

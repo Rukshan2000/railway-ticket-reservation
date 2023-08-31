@@ -1,0 +1,119 @@
+{
+    "schedule": [
+      {
+        "origin": "Anuradhapura",
+        "trainSchedules": [
+          {
+            "destination": "Colombo",
+            "departureTime": "08:00 AM",
+            "arrivalTime": "10:30 AM",
+            "ticket-price":"250"
+            
+          },
+          {
+            "destination": "Gampaha",
+            "departureTime": "11:45 AM",
+            "arrivalTime": "02:15 PM",
+            "ticket-price":"250"
+
+          }
+        ]
+      },
+      {
+        "origin": "Kandy",
+        "trainSchedules": [
+          {
+            "destination": "Nuwaraeliya",
+            "departureTime": "09:30 AM",
+            "arrivalTime": "12:15 PM",
+            "ticket-price":"250"
+
+          },
+          {
+            "destination": "Badulla",
+            "departureTime": "03:00 PM",
+            "arrivalTime": "06:45 PM",
+            "ticket-price":"250"
+
+          }
+        ]
+      },
+      {
+        "origin": "Jaffna",
+        "trainSchedules": [
+          {
+            "destination": "Kandy",
+            "departureTime": "07:30 AM",
+            "arrivalTime": "10:00 AM",
+            "ticket-price":"250"
+
+          },
+          {
+            "destination": "Colombo",
+            "departureTime": "12:00 PM",
+            "arrivalTime": "03:15 PM",
+            "ticket-price":"250"
+
+          }
+        ]
+      },
+      {
+        "origin": "Galle",
+        "trainSchedules": [
+          {
+            "destination": "Colombo",
+            "departureTime": "09:00 AM",
+            "arrivalTime": "11:30 AM",
+            "ticket-price":"250"
+
+          },
+          {
+            "destination": "Matara",
+            "departureTime": "02:45 PM",
+            "arrivalTime": "05:15 PM",
+            "ticket-price":"250"
+
+          }
+        ]
+      },
+      {
+        "origin": "Mannar",
+        "trainSchedules": [
+          {
+            "destination": "Anuradhapura",
+            "departureTime": "08:30 AM",
+            "arrivalTime": "11:00 AM",
+            "ticket-price":"250"
+
+          },
+          {
+            "destination": "Colombo",
+            "departureTime": "01:15 PM",
+            "arrivalTime": "03:45 PM",
+            "ticket-price":"250"
+
+          }
+        ]
+      },
+      {
+        "origin": "Chavakachcheri",
+        "trainSchedules": [
+          {
+            "destination": "Kandy",
+            "departureTime": "07:15 AM",
+            "arrivalTime": "09:45 AM",
+            "ticket-price":"250"
+
+          },
+          {
+            "destination": "Jaffna",
+            "departureTime": "11:30 AM",
+            "arrivalTime": "02:00 PM",
+            "ticket-price":"250"
+
+          }
+        ]
+      }
+    ]
+  }
+  

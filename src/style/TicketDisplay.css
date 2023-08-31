@@ -1,0 +1,89 @@
+/* TicketDisplay.css */
+
+.ticket-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .ticket-card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border: 1px solid #ccc;
+    width: 900px;
+    padding: 0px;
+    background-color: #141c6d;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+.header {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: #141c6d; /* Add a background color */
+  padding: 0px; /* Add some padding to the header */
+}
+  
+  .header h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .header p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .logo img {
+    max-width: 100px; /* Adjust the size of your logo */
+    margin-right: 20px;}
+  
+    .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 900px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        margin-top: 20px; /* Add some space between header and details */
+      }
+      
+      table {
+        width: 100%;
+      }
+      
+      .detail-label {
+        text-align: left; /* Align label text to the left */
+        padding-right: 10px;
+        border-bottom: 1px solid #ccc;
+        font-weight: bold;
+      }
+      
+      .detail-value {
+        text-align: left; /* Align value text to the left */
+        margin-bottom: 10px; /* Add margin to create space between detail lines */
+        padding-left: 10px;
+      }
+      .footer {
+        background-color: #141c6d;
+        color: #fff;
+        font-size: 12px;
+        text-align: start;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+
+  .download-button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+  }
+  
