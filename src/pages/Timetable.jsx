@@ -85,12 +85,10 @@ const Timetable = () => {
               ))}
           </select>
         </div>
-        {/* "Find" button */}
         <button className="find-button" onClick={handleFindClick}>
           Find
         </button>
       </div>
-      {/* Right side */}
       <div className="right-side">
         {/* Display selected schedule information */}
         {showSchedule && selectedSchedule && (

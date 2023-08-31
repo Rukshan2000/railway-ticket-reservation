@@ -1,6 +1,5 @@
 import React from "react";
-import { BsBook } from 'react-icons/bs';
-import '../style/Navbar.css'; // Make sure to adjust the path accordingly
+import '../style/Navbar.css'; 
 
 const Navbar = () => {
   return (

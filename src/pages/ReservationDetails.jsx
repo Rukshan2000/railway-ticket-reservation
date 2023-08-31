@@ -1,7 +1,6 @@
 
 import React from 'react';
-import '../style/ReservationDetails.css'; // Import your CSS file for styling
-
+import '../style/ReservationDetails.css'; 
 
 const ReservationDetails = ({
   reservationDetails,

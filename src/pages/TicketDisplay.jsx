@@ -15,7 +15,7 @@ const TicketDisplay = ({ reservationDetails }) => {
       // Create a download link for the image
       const link = document.createElement('a');
       link.href = image;
-      link.download = `${reservationDetails.name}_train_ticket.jpg`; // Corrected download filename
+      link.download = `${reservationDetails.name}_train_ticket.jpg`; //  download filename
       link.click();
     });
   };
