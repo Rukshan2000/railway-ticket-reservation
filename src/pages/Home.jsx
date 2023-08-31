@@ -8,6 +8,7 @@ function Home() {
       <div className="content-container">
         <div className="Home-text">
           <h2>Welcome to Sri Lanka Railways</h2>
+          <p>index no:EVO/2023/IND_TR/G4/NP/M/030</p>
         </div>
 
         <div className="booking-button-container">
