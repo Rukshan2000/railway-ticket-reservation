@@ -17,7 +17,7 @@ This is a React application that allows users to reserve train tickets. Users ca
 
 ## Getting Started
 
-1. Clone this repository to your local machine using: git clone https://github.com/Rukshan2000/railway-reservation.git
+1. Clone this repository to your local machine using: git clone https://github.com/Rukshan2000/railway-ticket-reservation.git
 2. Navigate to the project directory:
 3. Install the dependencies:
 4. Start the development server:
